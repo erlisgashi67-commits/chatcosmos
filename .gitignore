@@ -52,3 +52,14 @@ prompt
 server.log
 # Skills directory
 /skills/
+
+# ChatCosmos — generated data (track the demo dataset, ignore rebuilds)
+# public/data/cosmos-data.json is committed as the demo dataset
+
+# Python pipeline caches
+python-pipeline/.cache/
+__pycache__/
+*.pyc
+
+# Worklog (internal agent coordination)
+worklog.md
